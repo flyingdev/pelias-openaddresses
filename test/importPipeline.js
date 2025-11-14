@@ -24,7 +24,7 @@ tape('functional test of importing four small OA files', function(t) {
   };
 
   const importPipeline = proxyquire('../lib/importPipeline', {
-    'pelias-dbclient': () => {
+    'flyingdev-pelias-dbclient-opensearch': () => {
       const dbclient = new stream_mock.ObjectWritableMock();
       dbclient.on('error', (e) => assert(e));
       dbclient.on('finish', () => assert(null, dbclient.data));
