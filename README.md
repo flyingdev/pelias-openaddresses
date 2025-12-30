@@ -78,7 +78,7 @@ hash. A sample configuration file might look like this:
 
 ```javascript
 {
-  "esclient": {
+  "dbclient": {
     "hosts": [
       {
         "env": "development",
