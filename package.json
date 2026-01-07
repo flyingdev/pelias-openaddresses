@@ -13,7 +13,7 @@
     "bottleneck": "^2.19.5",
     "combined-stream": "^1.0.7",
     "csv-parse": "^5.0.3",
-    "flyingdev-pelias-dbclient-opensearch": "^1.0.0",
+    "flyingdev-pelias-dbclient-opensearch": "^1.0.1",
     "fs-extra": "^8.1.0",
     "glob": "^7.0.0",
     "lodash": "^4.16.0",
